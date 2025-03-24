@@ -5,12 +5,28 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Github/ProjectSD/ProjectSD/Content/StarterContent/Architecture/Floor_400x400.uasset",
-				"C:/Github/GCCProjectSD/GCCProjectSD/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/github/GCCProjectSD/GCCProjectSD/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
 				"C:/Github/GCCProjectSD/GCCProjectSD/Content/ProjectSD/Blueprints/Character/Enemy/BP_EnemyBase.uasset",
-				"C:/Github/GCCProjectSD/GCCProjectSD/Content/ProjectSD/Blueprints/Character/Enemy/Struct/EnemyBaseStat.uasset",
-				"C:/Github/GCCProjectSD/GCCProjectSD/Content/ProjectSD/Blueprints/Character/Enemy/EnemyBaseStat.uasset",
-				"C:/Github/GCCProjectSD/GCCProjectSD/Content/ProjectSD/Blueprints/Character/Enemy/Base/BP_EnemyBase.uasset"
+				"C:/github/GCCProjectSD/GCCProjectSD/Content/ProjectSD/Blueprints/Character/Enemy/Base/BP_EnemyBase.uasset",
+				"C:/github/GCCProjectSD/GCCProjectSD/Content/ProjectSD/BehaviorTree/BT_NormalEnemy.uasset",
+				"C:/github/GCCProjectSD/GCCProjectSD/Content/ProjectSD/BehaviorTree/BB_NormalEnemy.uasset",
+				"C:/github/GCCProjectSD/GCCProjectSD/Content/ProjectSD/BehaviorTree/Decorator/BTDecorator_IsPlayerInRange.uasset",
+				"C:/github/GCCProjectSD/GCCProjectSD/Content/ProjectSD/BehaviorTree/Task/BPTask_Attack.uasset",
+				"C:/github/GCCProjectSD/GCCProjectSD/Content/ProjectSD/BehaviorTree/Task/BTTask_MoveToPlayer.uasset",
+				"C:/github/GCCProjectSD/GCCProjectSD/Content/ProjectSD/Blueprints/Character/Enemy/BP_EnemyAIController.uasset",
+				"C:/github/GCCProjectSD/GCCProjectSD/Content/ProjectSD/Structure/EnemyBaseStat.uasset",
+				"C:/github/GCCProjectSD/GCCProjectSD/Content/ProjectSD/BehaviorTree/Service/BTService_CheckPlayerInRange.uasset",
+				"C:/github/GCCProjectSD/GCCProjectSD/Content/ProjectSD/Maps/LJG/LjgTestMap.umap",
+				"C:/github/GCCProjectSD/GCCProjectSD/Content/ProjectSD/Blueprints/Character/Enemy/Struct/EnemyBaseStat.uasset",
+				"C:/github/GCCProjectSD/GCCProjectSD/Content/ProjectSD/Blueprints/Character/Enemy/Behavior/NormalEnemy.uasset",
+				"C:/github/GCCProjectSD/GCCProjectSD/Content/ProjectSD/Blueprints/Character/Enemy/Behavior/BT_NormalEnemy.uasset",
+				"C:/github/GCCProjectSD/GCCProjectSD/Content/ProjectSD/Blueprints/Character/Enemy/BehaviorTree/BT_NormalEnemy.uasset",
+				"C:/github/GCCProjectSD/GCCProjectSD/Content/ProjectSD/Blueprints/Character/Enemy/BehaviorTree/BB_NormalEnemy.uasset",
+				"C:/github/GCCProjectSD/GCCProjectSD/Content/ProjectSD/BehaviorTree/Decorator/BP_IsInRange.uasset",
+				"C:/github/GCCProjectSD/GCCProjectSD/Content/ProjectSD/BehaviorTree/Decorator/BTTask_FindTarget.uasset",
+				"C:/github/GCCProjectSD/GCCProjectSD/Content/ProjectSD/Struct/EnemyBaseStat.uasset",
+				"C:/Github/ProjectSD/ProjectSD/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"C:/Github/GCCProjectSD/GCCProjectSD/Content/ProjectSD/Blueprints/Character/Enemy/EnemyBaseStat.uasset"
 			]
 		}
 	]
