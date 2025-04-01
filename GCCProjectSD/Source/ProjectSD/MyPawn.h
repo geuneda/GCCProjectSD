@@ -4,16 +4,16 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
-#include "Boss.generated.h"
+#include "MyPawn.generated.h"
 
 UCLASS()
-class PROJECTSD_API ABoss : public APawn
+class PROJECTSD_API AMyPawn : public APawn
 {
 	GENERATED_BODY()
 
 public:
 	// Sets default values for this pawn's properties
-	ABoss();
+	AMyPawn();
 
 protected:
 	// Called when the game starts or when spawned

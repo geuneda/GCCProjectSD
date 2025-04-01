@@ -33,6 +33,12 @@
     <Filter Include="Source\ProjectSD">
       <UniqueIdentifier>{B1CA2C52-C647-31A7-AA39-2C8995F58E0C}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\ProjectSD\MyPawn.cpp">
+      <Filter>Source\ProjectSD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ProjectSD\MyPawn.h">
+      <Filter>Source\ProjectSD</Filter>
+    </ClCompile>
     <None Include="..\..\Source\ProjectSD\ProjectSD.Build.cs">
       <Filter>Source\ProjectSD</Filter>
     </None>
@@ -42,11 +48,41 @@
     <ClCompile Include="..\..\Source\ProjectSD\ProjectSD.h">
       <Filter>Source\ProjectSD</Filter>
     </ClCompile>
-    <Filter Include="Source\ProjectSD\Private">
-      <UniqueIdentifier>{156EAD1E-73E5-3AFC-B040-32EF15818A6F}</UniqueIdentifier>
+    <Filter Include="Source\ProjectSD\Enemy">
+      <UniqueIdentifier>{E55114E3-BEA7-317A-B98B-5556A3924590}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\ProjectSD\Private\Boss.cpp">
-      <Filter>Source\ProjectSD\Private</Filter>
+    <Filter Include="Source\ProjectSD\Enemy\Boss">
+      <UniqueIdentifier>{BBA050F2-CE0B-33CF-A174-3503B34D1773}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectSD\Enemy\Boss\Boss.cpp">
+      <Filter>Source\ProjectSD\Enemy\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ProjectSD\Enemy\Boss\Boss.h">
+      <Filter>Source\ProjectSD\Enemy\Boss</Filter>
+    </ClCompile>
+    <Filter Include="Source\ProjectSD\Item">
+      <UniqueIdentifier>{082E9368-A93A-391C-B212-AE0B2662D6BE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectSD\Item\BaseItem.cpp">
+      <Filter>Source\ProjectSD\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ProjectSD\Item\BaseItem.h">
+      <Filter>Source\ProjectSD\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ProjectSD\Item\ItemInterface.cpp">
+      <Filter>Source\ProjectSD\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ProjectSD\Item\ItemInterface.h">
+      <Filter>Source\ProjectSD\Item</Filter>
+    </ClCompile>
+    <Filter Include="Source\ProjectSD\Item\MineItem">
+      <UniqueIdentifier>{30A33917-B215-3076-AF9C-C7EE5C78A67A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectSD\Item\MineItem\MineItem.cpp">
+      <Filter>Source\ProjectSD\Item\MineItem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ProjectSD\Item\MineItem\MineItem.h">
+      <Filter>Source\ProjectSD\Item\MineItem</Filter>
     </ClCompile>
     <Filter Include="Source\ProjectSD\Projectile">
       <UniqueIdentifier>{5054B027-FA80-3687-ACF1-CA62CC12CC84}</UniqueIdentifier>
@@ -80,12 +116,6 @@
     </ClCompile>
     <ClCompile Include="..\..\Source\ProjectSD\Projectile\ProjectileBase.h">
       <Filter>Source\ProjectSD\Projectile</Filter>
-    </ClCompile>
-    <Filter Include="Source\ProjectSD\Public">
-      <UniqueIdentifier>{49EB4FF2-3BA9-3AAC-A7F4-E87630FD2F6D}</UniqueIdentifier>
-    </Filter>
-    <ClCompile Include="..\..\Source\ProjectSD\Public\Boss.h">
-      <Filter>Source\ProjectSD\Public</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

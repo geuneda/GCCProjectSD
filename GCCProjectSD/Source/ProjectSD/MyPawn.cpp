@@ -1,10 +1,10 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "Boss.h"
+#include "MyPawn.h"
 
 // Sets default values
-ABoss::ABoss()
+AMyPawn::AMyPawn()
 {
  	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
@@ -12,21 +12,21 @@ ABoss::ABoss()
 }
 
 // Called when the game starts or when spawned
-void ABoss::BeginPlay()
+void AMyPawn::BeginPlay()
 {
 	Super::BeginPlay();
 	
 }
 
 // Called every frame
-void ABoss::Tick(float DeltaTime)
+void AMyPawn::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
 }
 
 // Called to bind functionality to input
-void ABoss::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
+void AMyPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
