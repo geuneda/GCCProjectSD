@@ -48,6 +48,39 @@
     <ClCompile Include="..\..\Source\ProjectSD\Private\Boss.cpp">
       <Filter>Source\ProjectSD\Private</Filter>
     </ClCompile>
+    <Filter Include="Source\ProjectSD\Projectile">
+      <UniqueIdentifier>{5054B027-FA80-3687-ACF1-CA62CC12CC84}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectSD\Projectile\BombProjectile.cpp">
+      <Filter>Source\ProjectSD\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ProjectSD\Projectile\BombProjectile.h">
+      <Filter>Source\ProjectSD\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ProjectSD\Projectile\EnemyProjectile.cpp">
+      <Filter>Source\ProjectSD\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ProjectSD\Projectile\EnemyProjectile.h">
+      <Filter>Source\ProjectSD\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ProjectSD\Projectile\HomingProjectile.cpp">
+      <Filter>Source\ProjectSD\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ProjectSD\Projectile\HomingProjectile.h">
+      <Filter>Source\ProjectSD\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ProjectSD\Projectile\MissileProjectile.cpp">
+      <Filter>Source\ProjectSD\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ProjectSD\Projectile\MissileProjectile.h">
+      <Filter>Source\ProjectSD\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ProjectSD\Projectile\ProjectileBase.cpp">
+      <Filter>Source\ProjectSD\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ProjectSD\Projectile\ProjectileBase.h">
+      <Filter>Source\ProjectSD\Projectile</Filter>
+    </ClCompile>
     <Filter Include="Source\ProjectSD\Public">
       <UniqueIdentifier>{49EB4FF2-3BA9-3AAC-A7F4-E87630FD2F6D}</UniqueIdentifier>
     </Filter>
