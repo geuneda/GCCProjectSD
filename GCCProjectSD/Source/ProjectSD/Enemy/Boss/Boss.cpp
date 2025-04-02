@@ -19,15 +19,12 @@ void ABoss::BeginPlay()
 	Super::BeginPlay();
 
 	CastPlayer();
-
-	LSlugShot();
 }
-
+ 
 // Called every frame
 void ABoss::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
 
 // Called to bind functionality to input
@@ -54,7 +51,6 @@ void ABoss::LSlugShot()
 {
 	if (Player == nullptr) return;
 
-	// 플레이어 위치 반환
 	FVector PlayerLocation = Player->GetActorLocation();
 	FVector LeftMuzzleLocation = Mesh->GetSocketLocation(FName("L_MuzzleSocket"));
 	FVector LTargetDirection = (PlayerLocation - LeftMuzzleLocation).GetSafeNormal();
@@ -63,6 +59,21 @@ void ABoss::LSlugShot()
 	if (Projectile != nullptr)
 	{
 		Projectile->Fire(LTargetDirection);
+	}
+}
+
+void ABoss::RSlugShot()
+{
+	if (Player == nullptr) return;
+
+	FVector PlayerLocation = Player->GetActorLocation();
+	FVector RightMuzzleLocation = Mesh->GetSocketLocation(FName("R_MuzzleSocket"));
+	FVector RTargetDirection = (PlayerLocation - RightMuzzleLocation).GetSafeNormal();
+	ABombProjectile* Projectile = GetWorld()->SpawnActor<ABombProjectile>(BombClass, RightMuzzleLocation, FRotator::ZeroRotator);
+	
+	if (Projectile != nullptr)
+	{
+		Projectile->Fire(RTargetDirection);
 	}
 }
 #pragma endregion

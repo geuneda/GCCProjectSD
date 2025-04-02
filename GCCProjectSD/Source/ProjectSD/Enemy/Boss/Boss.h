@@ -47,7 +47,13 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-	
+
+	// LSlugShot (투사체, 폭발)
 	UFUNCTION(BlueprintCallable)
 	void LSlugShot();
+	
+	// RSlugShot (투사체, 폭발)
+	UFUNCTION(BlueprintCallable)
+	void RSlugShot();
 };
+
