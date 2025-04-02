@@ -2,6 +2,7 @@
 
 #include "Components/SphereComponent.h"
 #include "Engine/StaticMeshActor.h"
+#include "GameFramework/Character.h"
 #include "GameFramework/ProjectileMovementComponent.h"
 #include "Kismet/GameplayStatics.h"
 
@@ -30,17 +31,15 @@ void AHomingProjectile::Fire(FVector& Direction)
 
 void AHomingProjectile::SetHomingTarget()
 {
-	APawn* PlayerPawn = UGameplayStatics::GetPlayerPawn(GetWorld(), 0);
-	if (PlayerPawn)
+	APlayerController* playerController = GetWorld()->GetFirstPlayerController();
+	if (playerController != nullptr)
 	{
-		ProjectileMovement->HomingTargetComponent = PlayerPawn->GetRootComponent();
+		ACharacter* Player = Cast<ACharacter>(playerController->GetCharacter());
+		PlayerLocation = Player->GetActorLocation();
 	}
-	
-	FVector PlayerLocation = PlayerPawn->GetActorLocation();
 
 	FVector TempLocation = PlayerLocation;
 	TempLocation.Z -= 100;
-	
 	
 	AStaticMeshActor* TempActor = GetWorld()->SpawnActor<AStaticMeshActor>(
 			AStaticMeshActor::StaticClass(),

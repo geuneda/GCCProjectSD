@@ -33,8 +33,14 @@ public:
 	// 발사할 폭탄 클래스 정보
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Projectile")
 	TSubclassOf<ABombProjectile> BombClass;
-
 	
+	/** 발사할 유도 미사일 클래스 정보 */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Projectile")
+	TSubclassOf<AHomingProjectile> HomingClass;
+
+	FTimerHandle LJavelinRepeatTimer;
+
+	int LJavelinRepeatCount;
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -55,5 +61,10 @@ public:
 	// RSlugShot (투사체, 폭발)
 	UFUNCTION(BlueprintCallable)
 	void RSlugShot();
+
+	// JabelinShotStartTimer ()
+	UFUNCTION(BlueprintCallable)
+	void LJavelinShotStart();
+	void LJavelinShot();
 };
 
