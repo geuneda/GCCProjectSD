@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjectSDModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d575eb311d0f3aedbd8e798adfe9991d49ef417")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e29f451b548a315c277c41dd7a10b799d232d25")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjectSDModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjectSDModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

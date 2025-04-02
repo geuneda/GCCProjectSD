@@ -13,17 +13,22 @@
   <component name="ChangeListManager">
     <list default="true" id="8daaaccc-efd9-4366-ba64-e91d8731ce84" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectSD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectSD/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ProjectSD/Blueprints/Character/Enemy/Boss/BP_GraveWalker.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ProjectSD/Blueprints/Character/Enemy/Boss/BP_GraveWalker.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ProjectSD/Maps/LJG/LjgTestMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ProjectSD/Maps/LJG/LjgTestMap.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRules/ProjectSDModuleRules.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRules/ProjectSDModuleRules.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/ProjectSDModuleRules/obj/Development/ProjectSDModuleRules.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/ProjectSDModuleRules/obj/Development/ProjectSDModuleRules.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/ProjectSDModuleRules/obj/Development/ProjectSDModuleRules.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/ProjectSDModuleRules/obj/Development/ProjectSDModuleRules.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/ProjectSDModuleRules/obj/Development/ProjectSDModuleRules.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/ProjectSDModuleRules/obj/Development/ProjectSDModuleRules.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/ProjectSDModuleRules/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/ProjectSDModuleRules/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/AutomationTool.csproj.References" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/AutomationTool.csproj.References" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/ProjectSD.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/ProjectSD.vcxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/ProjectSD.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/ProjectSD.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/ProjectSDEditor/Development/Core/SharedPCH.Core.Cpp20.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/ProjectSDEditor/Development/Core/SharedPCH.Core.Cpp20.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/ProjectSDEditor/Development/Core/SharedPCH.Core.RTTI.Cpp20.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/ProjectSDEditor/Development/Core/SharedPCH.Core.RTTI.Cpp20.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/ProjectSDEditor/Development/CoreUObject/SharedPCH.CoreUObject.Cpp20.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/ProjectSDEditor/Development/CoreUObject/SharedPCH.CoreUObject.Cpp20.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/ProjectSDEditor/Development/CoreUObject/SharedPCH.CoreUObject.RTTI.Cpp20.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/ProjectSDEditor/Development/CoreUObject/SharedPCH.CoreUObject.RTTI.Cpp20.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/ProjectSDEditor/Development/Engine/SharedPCH.Engine.Cpp20.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/ProjectSDEditor/Development/Engine/SharedPCH.Engine.Cpp20.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/ProjectSDEditor/Development/Engine/SharedPCH.Engine.Project.ValApi.Cpp20.InclOrderUnreal5_3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/ProjectSDEditor/Development/Engine/SharedPCH.Engine.Project.ValApi.Cpp20.InclOrderUnreal5_3.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/ProjectSDEditor/Development/Slate/SharedPCH.Slate.Cpp20.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/ProjectSDEditor/Development/Slate/SharedPCH.Slate.Cpp20.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/ProjectSDEditor/Development/UnrealEd/SharedPCH.UnrealEd.Cpp20.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/ProjectSDEditor/Development/UnrealEd/SharedPCH.UnrealEd.Cpp20.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/ProjectSDEditor/Development/UnrealEd/SharedPCH.UnrealEd.RTTI.Cpp20.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/ProjectSDEditor/Development/UnrealEd/SharedPCH.UnrealEd.RTTI.Cpp20.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Editor/ProjectSD.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Editor/ProjectSD.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Editor/UE5.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Editor/UE5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Editor/UnrealEditor.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectSD/Enemy/Boss/Boss.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectSD/Enemy/Boss/Boss.h" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +42,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Source/ProjectSD/Enemy/Boss/Boss.h" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../UnrealEngine/UE_5.5/Engine/Source/Runtime/Engine/Private/Components/MeshComponent.cpp" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
@@ -174,6 +180,7 @@
       <workItem from="1743492776911" duration="484000" />
       <workItem from="1743493340068" duration="228000" />
       <workItem from="1743494566770" duration="202000" />
+      <workItem from="1743552596018" duration="424000" />
     </task>
     <servers />
   </component>
