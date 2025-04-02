@@ -27,6 +27,9 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultGameplayTags.ini">
+      <Filter>Config</Filter>
+    </None>
     <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
     </None>
@@ -60,6 +63,15 @@
     <ClCompile Include="..\..\Source\ProjectSD\Enemy\Boss\Boss.h">
       <Filter>Source\ProjectSD\Enemy\Boss</Filter>
     </ClCompile>
+    <Filter Include="Source\ProjectSD\Grounds">
+      <UniqueIdentifier>{23590484-862C-3962-AB4C-98ABC5D9FDF4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectSD\Grounds\Ground.cpp">
+      <Filter>Source\ProjectSD\Grounds</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ProjectSD\Grounds\Ground.h">
+      <Filter>Source\ProjectSD\Grounds</Filter>
+    </ClCompile>
     <Filter Include="Source\ProjectSD\Item">
       <UniqueIdentifier>{082E9368-A93A-391C-B212-AE0B2662D6BE}</UniqueIdentifier>
     </Filter>
@@ -83,6 +95,15 @@
     </ClCompile>
     <ClCompile Include="..\..\Source\ProjectSD\Item\MineItem\MineItem.h">
       <Filter>Source\ProjectSD\Item\MineItem</Filter>
+    </ClCompile>
+    <Filter Include="Source\ProjectSD\Player">
+      <UniqueIdentifier>{FEB6955D-8974-3D77-BD8E-BB9C914565FD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectSD\Player\PlayerBase.cpp">
+      <Filter>Source\ProjectSD\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ProjectSD\Player\PlayerBase.h">
+      <Filter>Source\ProjectSD\Player</Filter>
     </ClCompile>
     <Filter Include="Source\ProjectSD\Projectile">
       <UniqueIdentifier>{5054B027-FA80-3687-ACF1-CA62CC12CC84}</UniqueIdentifier>

@@ -11,8 +11,6 @@ void ABombProjectile::OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* Oth
                                 int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
 	//Super::OnOverlap(OverlappedComp, OtherActor, OtherComp, OtherBodyIndex, bFromSweep, SweepResult);
-
-	if (bIsDamaged) return;
 	
 	if (OtherActor && OtherActor != this)
 	{
@@ -30,9 +28,6 @@ void ABombProjectile::OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* Oth
 
 			for (AActor* Actor : OverlappingActors)
 			{
-				// 게임 인스턴스 캐스팅
-				UGameInstance* GameInstance = GetWorld()->GetGameInstance();
-				
 				if (Actor && Actor->ActorHasTag("Player"))
 				{
 					UGameplayStatics::ApplyDamage(

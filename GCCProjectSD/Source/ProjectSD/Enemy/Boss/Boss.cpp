@@ -56,16 +56,13 @@ void ABoss::LSlugShot()
 
 	// 플레이어 위치 반환
 	FVector PlayerLocation = Player->GetActorLocation();
-	
-
 	FVector LeftMuzzleLocation = Mesh->GetSocketLocation(FName("L_MuzzleSocket"));
 	FVector LTargetDirection = (PlayerLocation - LeftMuzzleLocation).GetSafeNormal();
-	ABombProjectile* Projectile = GetWorld()->SpawnActor<ABombProjectile>(BombClass, LeftMuzzleLocation, FRotator::ZeroRotator);if (Projectile != nullptr)
+	ABombProjectile* Projectile = GetWorld()->SpawnActor<ABombProjectile>(BombClass, LeftMuzzleLocation, FRotator::ZeroRotator);
+
+	if (Projectile != nullptr)
 	{
 		Projectile->Fire(LTargetDirection);
 	}
 }
-
-
-
 #pragma endregion
