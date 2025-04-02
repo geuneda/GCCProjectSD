@@ -83,3 +83,9 @@ Saved/Logs/
 
 # Ignore response files (like the one you mentioned)
 *.rsp
+
+# Ignore unnecessary intermediate files
+GCCProjectSD/Intermediate/Build/BuildRulesProjects/ProjectSDModuleRules/obj/
+GCCProjectSD/Intermediate/CachedAssetRegistry_0.bin
+GCCProjectSD/Intermediate/ProjectFiles/*.vcxproj
+GCCProjectSD/Intermediate/ProjectFiles/*.vcxproj.filters
