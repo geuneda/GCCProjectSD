@@ -14,9 +14,6 @@ public:
 	ABombProjectile();
 
 private:
-	/** 데미지를 한 번 가한 경우 true */
-	bool bIsDamaged;
-
 
 protected:
 	/** 총알이 충돌을 감지할 경우 호출 */
