@@ -38,9 +38,14 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Projectile")
 	TSubclassOf<AHomingProjectile> HomingClass;
 
+	// 자벨린 샷 타이머 (L)
 	FTimerHandle LJavelinRepeatTimer;
-
+	// 자벨린 샷 타이머 (R)
+	FTimerHandle RJavelinRepeatTimer;
+	// 타이머 관리 카운트
 	int LJavelinRepeatCount;
+	// 타이머 관리 카운트
+	int RJavelinRepeatCount;
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -66,5 +71,10 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void LJavelinShotStart();
 	void LJavelinShot();
+
+	// JabelinShotStartTimer ()
+	UFUNCTION(BlueprintCallable)
+	void RJavelinShotStart();
+	void RJavelinShot();
 };
 
