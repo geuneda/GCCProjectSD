@@ -12,16 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8daaaccc-efd9-4366-ba64-e91d8731ce84" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectSD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectSD/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ProjectSD/Blueprints/Character/Enemy/Projectile/BP_Missile.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ProjectSD/Blueprints/Character/Enemy/Projectile/BP_Missile.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ProjectSD/Maps/LJG/LjgTestMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ProjectSD/Maps/LJG/LjgTestMap.umap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/ProjectSDModuleRules/obj/Development/ProjectSDModuleRules.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/ProjectSDModuleRules/obj/Development/ProjectSDModuleRules.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/ProjectSDModuleRules/obj/Development/ProjectSDModuleRules.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/ProjectSDModuleRules/obj/Development/ProjectSDModuleRules.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry_0.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry_0.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Editor/ProjectSD.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Editor/UE5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Editor/UnrealEditor.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ReimportCache/3688439234.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ReimportCache/3688439234.bin" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,6 +190,7 @@
       <workItem from="1743587817101" duration="183000" />
       <workItem from="1743656403411" duration="4553000" />
       <workItem from="1743661034558" duration="716000" />
+      <workItem from="1743662240220" duration="43000" />
     </task>
     <servers />
   </component>
