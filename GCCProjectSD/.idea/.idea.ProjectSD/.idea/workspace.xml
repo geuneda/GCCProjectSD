@@ -13,14 +13,19 @@
   <component name="ChangeListManager">
     <list default="true" id="8daaaccc-efd9-4366-ba64-e91d8731ce84" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectSD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectSD/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_SDGameMode.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ProjectSD/Blueprints/Character/Enemy/ABP_RangedEnemy.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ProjectSD/Blueprints/Character/Enemy/ABP_RangedEnemy.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ProjectSD/Maps/LJG/LjgTestMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ProjectSD/Maps/LJG/LjgTestMap.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ProjectSD/Resources/Characters/Monster/Ranged/Animation/Soldier/Idle.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ProjectSD/Resources/Characters/Monster/Ranged/Animation/Soldier/Idle.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Resources/Characters/Monster/Ranged/Meshes/Solider/MOB_CMN_1040_A001.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Resources/Characters/Monster/Ranged/Meshes/Solider/MOB_CMN_1040_A001.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRules/ProjectSDModuleRules.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRules/ProjectSDModuleRules.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRules/ProjectSDModuleRulesManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRules/ProjectSDModuleRulesManifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/ProjectSDModuleRules/obj/Development/ProjectSDModuleRules.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/ProjectSDModuleRules/obj/Development/ProjectSDModuleRules.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/ProjectSDModuleRules/obj/Development/ProjectSDModuleRules.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/ProjectSDModuleRules/obj/Development/ProjectSDModuleRules.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry_0.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry_0.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/ProjectSDModuleRules/obj/Development/ProjectSDModuleRules.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/ProjectSDModuleRules/obj/Development/ProjectSDModuleRules.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/ProjectSDModuleRules/obj/Development/ProjectSDModuleRules.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/ProjectSDModuleRules/obj/Development/ProjectSDModuleRules.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/ProjectSDModuleRules/obj/ProjectSDModuleRules.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/ProjectSDModuleRules/obj/ProjectSDModuleRules.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/ProjectSDModuleRules/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/ProjectSDModuleRules/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/ProjectSDModuleRules/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/ProjectSDModuleRules/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/ProjectSDModuleRules/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/ProjectSDModuleRules/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/ProjectSDModuleRules/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/ProjectSDModuleRules/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/TargetInfo.Engine.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/TargetInfo.Engine.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/TargetInfo.ProjectSD.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/TargetInfo.ProjectSD.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,6 +205,7 @@
       <workItem from="1743662240220" duration="43000" />
       <workItem from="1743665542312" duration="2730000" />
       <workItem from="1743670003750" duration="2381000" />
+      <workItem from="1743743270130" duration="772000" />
     </task>
     <servers />
   </component>
