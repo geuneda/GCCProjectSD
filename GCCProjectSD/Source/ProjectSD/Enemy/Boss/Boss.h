@@ -38,9 +38,39 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Projectile")
 	TSubclassOf<AHomingProjectile> HomingClass;
 
+	// 자벨린 샷 타이머 (L)
 	FTimerHandle LJavelinRepeatTimer;
+	// 자벨린 샷 타이머 (R)
+	FTimerHandle RJavelinRepeatTimer;
+	// 타이머 관리 카운트
+	int LJavelinRepeatCount = 0;
+	// 타이머 관리 카운트
+	int RJavelinRepeatCount = 0;
+	
+	// Flame 타이머
+	FTimerHandle FlameRepeatTimer;
 
-	int LJavelinRepeatCount;
+	// 타이머 관리 카운트
+	int FlameRepeatCount = 0;
+	
+	// Flame 미사일 정보
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Projectile")
+	TSubclassOf<AMissileProjectile> MissileClass;
+	
+	// 로켓 소켓 리스트 위치정보
+	TArray<FTransform> RocketSocketTransforms;
+
+	// 미사일 발사 후 폭파할 위치 정보
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Projectile")
+	TArray<AActor*> ExplosionLocations;
+	
+	// Mine 위치 인덱스 정보
+	uint32 MineLocationIndex = 0;
+
+	// Mine 클래스
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Projectile")
+	TSubclassOf<AMineItem> MineClass;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -66,5 +96,16 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void LJavelinShotStart();
 	void LJavelinShot();
+
+	// JabelinShotStartTimer ()
+	UFUNCTION(BlueprintCallable)
+	void RJavelinShotStart();
+	void RJavelinShot();
+
+	// Flame 로직 시작 타이머 함수
+	UFUNCTION(BlueprintCallable)
+	void SetFlameExplosionTimer();
+	// Flame 로직 내부 함수
+	void FlameExplosion();
 };
 
