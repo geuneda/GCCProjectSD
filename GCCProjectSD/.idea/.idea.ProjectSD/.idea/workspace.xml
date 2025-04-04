@@ -13,8 +13,17 @@
   <component name="ChangeListManager">
     <list default="true" id="8daaaccc-efd9-4366-ba64-e91d8731ce84" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectSD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectSD/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ProjectSD/Blueprints/BehaviorTree/BT_NormalEnemy.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ProjectSD/Blueprints/BehaviorTree/BT_NormalEnemy.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ProjectSD/Blueprints/BehaviorTree/Task/BTTask_MoveToPlayer.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ProjectSD/Blueprints/BehaviorTree/Task/BTTask_MoveToPlayer.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ProjectSD/Blueprints/BehaviorTree/Task/BTTask_Attack.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ProjectSD/Blueprints/BehaviorTree/Task/BTTask_Attack.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ProjectSD/Blueprints/Character/Enemy/ABP_MeleeEnemy.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ProjectSD/Blueprints/Character/Enemy/ABP_MeleeEnemy.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ProjectSD/Blueprints/Character/Enemy/BP_EnemyMelee.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ProjectSD/Blueprints/Character/Enemy/BP_EnemyMelee.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ProjectSD/Blueprints/Character/Enemy/Boss/BP_GraveWalker.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ProjectSD/Blueprints/Character/Enemy/Boss/BP_GraveWalker.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ProjectSD/Maps/LJG/LjgTestMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ProjectSD/Maps/LJG/LjgTestMap.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Resources/Realistic_Starter_VFX_Pack_Vol2/Particles/Explosion/ExplosionParticle/P_Explosion_Mini.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Resources/Realistic_Starter_VFX_Pack_Vol2/Particles/Explosion/ExplosionParticle/P_Explosion_Mini.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/ProjectSDModuleRules/obj/Development/ProjectSDModuleRules.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/ProjectSDModuleRules/obj/Development/ProjectSDModuleRules.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/ProjectSDModuleRules/obj/Development/ProjectSDModuleRules.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/ProjectSDModuleRules/obj/Development/ProjectSDModuleRules.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry_0.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry_0.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/ReimportCache/3688439234.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ReimportCache/3688439234.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectSD/Projectile/EnemyProjectile.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectSD/Projectile/EnemyProjectile.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +203,8 @@
       <workItem from="1743662240220" duration="43000" />
       <workItem from="1743665542312" duration="2730000" />
       <workItem from="1743670003750" duration="2381000" />
-      <workItem from="1743743270130" duration="4622000" />
+      <workItem from="1743743270130" duration="8125000" />
+      <workItem from="1743753798515" duration="1364000" />
     </task>
     <servers />
   </component>

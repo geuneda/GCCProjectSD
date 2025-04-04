@@ -44,9 +44,6 @@ void AEnemyProjectile::OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* Ot
 		{
 			// 플레이어에게 데미지 적용
 			UGameplayStatics::ApplyDamage(OtherActor, ProjectileDamage, GetInstigatorController(), this, UDamageType::StaticClass());
-
-			// 게임 인스턴스 캐스팅
-			UGameInstance* GameInstance = GetWorld()->GetGameInstance();
 		}
 	}
     
