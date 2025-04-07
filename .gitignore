@@ -89,3 +89,19 @@ GCCProjectSD/Intermediate/Build/BuildRulesProjects/ProjectSDModuleRules/obj/
 GCCProjectSD/Intermediate/CachedAssetRegistry_0.bin
 GCCProjectSD/Intermediate/ProjectFiles/*.vcxproj
 GCCProjectSD/Intermediate/ProjectFiles/*.vcxproj.filters
+
+# Rider 설정
+.idea/
+*.DotSettings.user
+*.sln.iml
+*.csproj.iml
+*.RiderProject.restore.info
+
+# 기타 누락된 캐시 파일
+*.nuget.cache
+*.packagespec.json
+*.assets.json
+*.assets.cache
+*.inputs.cache
+*.restore.info
+*.bin
