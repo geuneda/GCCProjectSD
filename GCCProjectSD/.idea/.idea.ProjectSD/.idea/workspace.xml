@@ -15,20 +15,17 @@
   <component name="ChangeListManager">
     <list default="true" id="8daaaccc-efd9-4366-ba64-e91d8731ce84" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectSD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectSD/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ProjectSD/Blueprints/Character/Player/PlayerSkill/BP_BunnySkill.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ProjectSD/Blueprints/Character/Player/PlayerSkill/BP_BunnySkill.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ProjectSD/Blueprints/Character/Player/PlayerSkill/BP_SkillSystem.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ProjectSD/Blueprints/Character/Player/PlayerSkill/BP_SkillSystem.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ProjectSD/Blueprints/Character/Player/PlayerSkill/EachSkillStructure/BunnyCSkillInfo.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ProjectSD/Blueprints/Character/Player/PlayerSkill/EachSkillStructure/BunnyCSkillInfo.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ProjectSD/Blueprints/Character/Player/PlayerSkill/EachSkillStructure/BunnyQSkillInfo.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ProjectSD/Blueprints/Character/Player/PlayerSkill/EachSkillStructure/BunnyQSkillInfo.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ProjectSD/Blueprints/Character/Player/PlayerSkill/EachSkillStructure/BunnyVSkillInfoBase.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ProjectSD/Blueprints/Character/Player/PlayerSkill/EachSkillStructure/BunnyVSkillInfoBase.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ProjectSD/Blueprints/Character/Player/PlayerSkill/EachSkillStructure/BunnyZSkillInfoBase.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ProjectSD/Blueprints/Character/Player/PlayerSkill/EachSkillStructure/BunnyZSkillInfoBase.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ProjectSD/Blueprints/Character/Player/BP_PlayerCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ProjectSD/Blueprints/Character/Player/BP_PlayerCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ProjectSD/Maps/LJG/LjgTestMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ProjectSD/Maps/LJG/LjgTestMap.umap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/ProjectSDModuleRules/obj/Development/ProjectSDModuleRules.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/ProjectSDModuleRules/obj/Development/ProjectSDModuleRules.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/ProjectSDModuleRules/obj/Development/ProjectSDModuleRules.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/ProjectSDModuleRules/obj/Development/ProjectSDModuleRules.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/ProjectSDModuleRules/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/ProjectSDModuleRules/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry_0.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry_0.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/ReimportCache/3688439234.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ReimportCache/3688439234.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/AutoScreenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/AutoScreenshot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/PackageRestoreData.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/PackageRestoreData.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Logs/ProjectSD.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/ProjectSD.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/SourceControl/UncontrolledChangelists.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/SourceControl/UncontrolledChangelists.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +59,7 @@
     &quot;C/C++ 프로젝트.UE5.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/player&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/enemy&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -87,6 +84,18 @@
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
         <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/ProjectSD.vcxproj" />
       </configuration_1>
+      <configuration_2 setup="1">
+        <option name="CONFIGURATION" value="DebugGame_Editor" />
+        <option name="PLATFORM" value="x64" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
+        <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
+        <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
+        <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+        <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/ProjectSD.vcxproj" />
+      </configuration_2>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/ProjectSD.vcxproj" />
       <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/ProjectSD.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="10010" />
@@ -219,6 +228,7 @@
       <workItem from="1743744981432" duration="2581000" />
       <workItem from="1743760236131" duration="796000" />
       <workItem from="1743983848507" duration="1341000" />
+      <workItem from="1743993940340" duration="569000" />
     </task>
     <servers />
   </component>
