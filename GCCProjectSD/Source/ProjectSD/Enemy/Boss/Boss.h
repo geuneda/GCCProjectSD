@@ -71,6 +71,15 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Projectile")
 	TSubclassOf<AMineItem> MineClass;
 
+	// 왼쪽 SlugShot 패턴 여부
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Locomotion")
+	bool bIsLSlugShot;
+	// 오른쪽 SlugShot 패턴 여부
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Locomotion")
+	bool bIsRSlugShot;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Locomotion")
+	bool bIsSpawned;
+	
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
