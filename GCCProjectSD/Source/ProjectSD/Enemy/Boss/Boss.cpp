@@ -111,6 +111,20 @@ void ABoss::FlameExplosion()
 	}
 }
 
+void ABoss::MoveToTarget()
+{
+	FVector BossLocation = GetActorLocation();
+	FVector PlayerLocation = Player->GetActorLocation();
+	FVector Direction = (PlayerLocation - BossLocation).GetSafeNormal();
+
+	AddMovementInput(Direction, 1.0f);
+}
+
+void ABoss::StopMovement()
+{
+	AddMovementInput(FVector::ZeroVector, 1.0f);
+}
+
 
 #pragma endregion
 
@@ -221,3 +235,4 @@ void ABoss::RJavelinShot()
 	
 }
 #pragma endregion
+

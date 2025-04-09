@@ -116,5 +116,11 @@ public:
 	void SetFlameExplosionTimer();
 	// Flame 로직 내부 함수
 	void FlameExplosion();
+	// 이동
+	UFUNCTION(BlueprintCallable)
+	void MoveToTarget();
+
+	UFUNCTION(BlueprintCallable)
+	void StopMovement();
 };
 
