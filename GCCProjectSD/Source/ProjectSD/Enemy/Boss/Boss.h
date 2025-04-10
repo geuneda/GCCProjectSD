@@ -122,5 +122,16 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	void StopMovement();
+
+	FTimerHandle RSlugShotTimer;
+	void RSlugShotTimerFunction()
+	{
+		bIsRSlugShot = false;
+	}
+	FTimerHandle LSlugShotTimer;
+	void LSlugShotTimerFunction()
+	{
+		bIsLSlugShot = false;
+	}
 };
 

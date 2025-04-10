@@ -2,6 +2,8 @@
 
 
 #include "ProjectSD/Enemy/Boss/Boss.h"
+
+#include "DSP/Delay.h"
 #include "GameFramework/Character.h"
 #include "ProjectSD/Item/MineItem/MineItem.h"
 #include "ProjectSD/Projectile/BombProjectile.h"
@@ -140,7 +142,14 @@ void ABoss::LSlugShot()
 
 	if (Projectile != nullptr)
 	{
+		bIsLSlugShot = true;
 		Projectile->Fire(LTargetDirection);
+		GetWorldTimerManager().SetTimer(
+			LSlugShotTimer,
+			this,
+			&ABoss::LSlugShotTimerFunction,
+			0.5f,
+			false);
 	}
 }
 
@@ -155,7 +164,14 @@ void ABoss::RSlugShot()
 	
 	if (Projectile != nullptr)
 	{
+		bIsRSlugShot = true;
 		Projectile->Fire(RTargetDirection);
+		GetWorldTimerManager().SetTimer(
+			RSlugShotTimer,
+			this,
+			&ABoss::RSlugShotTimerFunction,
+			0.5f,
+			false);
 	}
 }
 
