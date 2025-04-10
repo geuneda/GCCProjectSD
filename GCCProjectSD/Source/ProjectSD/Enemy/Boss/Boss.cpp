@@ -3,7 +3,7 @@
 
 #include "ProjectSD/Enemy/Boss/Boss.h"
 
-#include "DSP/Delay.h"
+#include "NavigationSystem.h"
 #include "GameFramework/Character.h"
 #include "ProjectSD/Item/MineItem/MineItem.h"
 #include "ProjectSD/Projectile/BombProjectile.h"
@@ -16,6 +16,108 @@ ABoss::ABoss(): Player(nullptr), Mesh(nullptr)
 	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	ExplosionLocations.Empty();
+}
+
+void ABoss::SpawnEnemy()
+{
+	// 1. 주변 일정 범위 내의 유효한 위치 확인
+	// 2. 유효한 위치란 Navmesh Volume 내에 이미 존재하는 무언가 ? 충돌체 ? 등이 없어야함
+	// 3. MeleeSpawnVolume과 RangedSpawnVolume에서 5마리씩 꺼내서 총 10마리 소환
+
+	UWorld* World = GetWorld();
+	if (!World) return;
+
+	UNavigationSystemV1* NavSystem = UNavigationSystemV1::GetCurrent(World);
+	if (!NavSystem) return;
+	
+	if (MeleeSpawnVolume)
+	{
+		for (int32 i = 0; i < 5; i++){
+			FNavLocation RandomLocation;
+			bool bFoundLocation = NavSystem->GetRandomPointInNavigableRadius(
+				GetActorLocation(),
+				3000.0f,
+				RandomLocation
+			);
+
+			if (bFoundLocation)
+			{
+				// 충돌검사용
+				FVector SpawnLocation = RandomLocation.Location;
+				FVector SpawnLocationZ = SpawnLocation + FVector(0, 0, 100.f);
+
+				FCollisionQueryParams CollisionParams;
+				CollisionParams.AddIgnoredActor(this);
+
+				FHitResult HitResult;
+				bool bHit = World->LineTraceSingleByChannel(
+					HitResult,
+					SpawnLocationZ,
+					SpawnLocationZ - FVector(0, 0, 100.f),
+					ECC_Visibility,
+					CollisionParams
+				);
+
+				if (!bHit || HitResult.Distance > 50.0f)
+				{
+					// 이제 소환
+					FActorSpawnParameters SpawnParams;
+					SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+
+					AEnemy* SpawnEnemy = World->SpawnActor<AEnemy>(
+						MeleeSpawnVolume,
+						SpawnLocation + FVector(0, 0, 100.f),
+						FRotator::ZeroRotator,
+						SpawnParams);
+				}
+			}
+		}
+	}
+
+	if (RangedSpawnVolume)
+	{
+		for (int32 i = 0; i < 5; i++)
+		{
+			FNavLocation RandomLocation;
+			bool bFoundLocation = NavSystem->GetRandomPointInNavigableRadius(
+				GetActorLocation(),
+				3000.0f,
+				RandomLocation
+			);
+
+			if (bFoundLocation)
+			{
+				FVector SpawnLocation = RandomLocation.Location;
+				FVector SpawnLocationZ = SpawnLocation + FVector(0, 0, 100.f);
+
+				FCollisionQueryParams CollisionParams;
+				CollisionParams.AddIgnoredActor(this);
+
+				FHitResult HitResult;
+				bool bHit = World->LineTraceSingleByChannel(
+					HitResult,
+					SpawnLocationZ,
+					SpawnLocationZ - FVector(0, 0, 100.f),
+					ECC_Visibility,
+					CollisionParams
+				);
+
+				if (!bHit || (bHit && HitResult.Distance > 50.0f))
+				{
+					
+					FActorSpawnParameters SpawnParams;
+					SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+
+					AEnemy* SpawnedEnemy = World->SpawnActor<AEnemy>(
+						RangedSpawnVolume,
+						SpawnLocation + FVector(0, 0, 100.f),
+						FRotator::ZeroRotator,
+						SpawnParams
+					);
+				}
+			}
+		}
+	}
 }
 
 // Called when the game starts or when spawned

@@ -63,6 +63,12 @@
     <ClCompile Include="..\..\Source\ProjectSD\Enemy\Boss\Boss.h">
       <Filter>Source\ProjectSD\Enemy\Boss</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\ProjectSD\Enemy\Boss\Enemy.cpp">
+      <Filter>Source\ProjectSD\Enemy\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ProjectSD\Enemy\Boss\Enemy.h">
+      <Filter>Source\ProjectSD\Enemy\Boss</Filter>
+    </ClCompile>
     <Filter Include="Source\ProjectSD\Grounds">
       <UniqueIdentifier>{23590484-862C-3962-AB4C-98ABC5D9FDF4}</UniqueIdentifier>
     </Filter>

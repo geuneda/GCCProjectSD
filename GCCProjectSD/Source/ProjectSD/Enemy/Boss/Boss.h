@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Enemy.h"
 #include "Boss.generated.h"
 
 class AHomingProjectile;
@@ -63,6 +64,15 @@ public:
 	// 미사일 발사 후 폭파할 위치 정보
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Projectile")
 	TArray<AActor*> ExplosionLocations;
+
+	UFUNCTION(BlueprintCallable)
+	void SpawnEnemy();
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="MeleeEnemySpawn")
+	TSubclassOf<AEnemy> MeleeSpawnVolume;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="RangedEnemySpawn")
+	TSubclassOf<AEnemy> RangedSpawnVolume;
 	
 	// Mine 위치 인덱스 정보
 	uint32 MineLocationIndex = 0;

@@ -278,6 +278,12 @@
     <ClCompile Include="..\..\Source\ProjectSD\Enemy\Boss\Boss.h">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
+    <ClCompile Include="..\..\Source\ProjectSD\Enemy\Boss\Enemy.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ProjectSD\Enemy\Boss\Enemy.h">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
     <ClCompile Include="..\..\Source\ProjectSD\Grounds\Ground.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
