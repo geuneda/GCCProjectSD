@@ -91,6 +91,8 @@ public:
 	bool bIsSpawned;
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Locomotion")
 	bool bIsDead;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Locomotion")
+	bool bIsStunState;
 	
 protected:
 	// Called when the game starts or when spawned
