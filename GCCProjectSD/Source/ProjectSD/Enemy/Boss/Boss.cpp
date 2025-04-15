@@ -217,7 +217,7 @@ void ABoss::FlameExplosion()
 
 void ABoss::MoveToTarget()
 {
-	if (bIsStunState) return;
+	if (bIsStunState || bIsBerserk) return;
 	FVector BossLocation = GetActorLocation();
 	FVector PlayerLocation = Player->GetActorLocation();
 	FVector Direction = (PlayerLocation - BossLocation).GetSafeNormal();
