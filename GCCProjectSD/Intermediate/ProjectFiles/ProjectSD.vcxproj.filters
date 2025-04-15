@@ -144,5 +144,20 @@
     <ClCompile Include="..\..\Source\ProjectSD\Projectile\ProjectileBase.h">
       <Filter>Source\ProjectSD\Projectile</Filter>
     </ClCompile>
+    <Filter Include="Source\ProjectSD\UI">
+      <UniqueIdentifier>{E33C422A-9914-30F1-9814-1DB93A5CB13B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectSD\UI\DamageTextManager.cpp">
+      <Filter>Source\ProjectSD\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ProjectSD\UI\DamageTextManager.h">
+      <Filter>Source\ProjectSD\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ProjectSD\UI\DamageTextWidget.cpp">
+      <Filter>Source\ProjectSD\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ProjectSD\UI\DamageTextWidget.h">
+      <Filter>Source\ProjectSD\UI</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

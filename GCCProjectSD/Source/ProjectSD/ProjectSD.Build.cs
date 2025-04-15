@@ -8,7 +8,7 @@ public class ProjectSD : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "NavigationSystem" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "NavigationSystem", "UMG" });
 
 		PrivateDependencyModuleNames.AddRange(new string[] { "D3D12RHI", "D3D12RHI" });
 
