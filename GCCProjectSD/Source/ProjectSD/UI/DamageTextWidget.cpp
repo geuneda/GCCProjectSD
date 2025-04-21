@@ -12,6 +12,6 @@ void UDamageTextWidget::SetDamageText(float Damage, bool Berserk)
 	else
 	{
 		DamageText->SetDefaultColorAndOpacity(FLinearColor::Yellow);
-		DamageText->SetText(FText::FromString(TEXT("무적")));
+		DamageText->SetText(FText::FromString(TEXT("면역")));
 	}
 }
