@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\hngmo.kim\\project_LargeFile\\1st\\GCCProjectSD\\GCCProjectSD\\Intermediate\\Build\\BuildRulesProjects\\ProjectSDModuleRules\\ProjectSDModuleRules.csproj": {}
+    "C:\\Github\\GCCProjectSD\\GCCProjectSD\\Intermediate\\Build\\BuildRulesProjects\\ProjectSDModuleRules\\ProjectSDModuleRules.csproj": {}
   },
   "projects": {
-    "C:\\hngmo.kim\\project_LargeFile\\1st\\GCCProjectSD\\GCCProjectSD\\Intermediate\\Build\\BuildRulesProjects\\ProjectSDModuleRules\\ProjectSDModuleRules.csproj": {
+    "C:\\Github\\GCCProjectSD\\GCCProjectSD\\Intermediate\\Build\\BuildRulesProjects\\ProjectSDModuleRules\\ProjectSDModuleRules.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\hngmo.kim\\project_LargeFile\\1st\\GCCProjectSD\\GCCProjectSD\\Intermediate\\Build\\BuildRulesProjects\\ProjectSDModuleRules\\ProjectSDModuleRules.csproj",
+        "projectUniqueName": "C:\\Github\\GCCProjectSD\\GCCProjectSD\\Intermediate\\Build\\BuildRulesProjects\\ProjectSDModuleRules\\ProjectSDModuleRules.csproj",
         "projectName": "ProjectSDModuleRules",
-        "projectPath": "C:\\hngmo.kim\\project_LargeFile\\1st\\GCCProjectSD\\GCCProjectSD\\Intermediate\\Build\\BuildRulesProjects\\ProjectSDModuleRules\\ProjectSDModuleRules.csproj",
+        "projectPath": "C:\\Github\\GCCProjectSD\\GCCProjectSD\\Intermediate\\Build\\BuildRulesProjects\\ProjectSDModuleRules\\ProjectSDModuleRules.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\hngmo.kim\\project_LargeFile\\1st\\GCCProjectSD\\GCCProjectSD\\Intermediate\\Build\\BuildRulesProjects\\ProjectSDModuleRules\\obj\\",
+        "outputPath": "C:\\Github\\GCCProjectSD\\GCCProjectSD\\Intermediate\\Build\\BuildRulesProjects\\ProjectSDModuleRules\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
