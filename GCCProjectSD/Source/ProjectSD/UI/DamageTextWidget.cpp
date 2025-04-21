@@ -3,8 +3,6 @@
 
 #include "DamageTextWidget.h"
 
-#include "Components/TextBlock.h"
-
 void UDamageTextWidget::SetDamageText(float Damage, bool Berserk)
 {
 	if (!Berserk)
@@ -13,6 +11,7 @@ void UDamageTextWidget::SetDamageText(float Damage, bool Berserk)
 	}
 	else
 	{
+		DamageText->SetDefaultColorAndOpacity(FLinearColor::Yellow);
 		DamageText->SetText(FText::FromString(TEXT("무적")));
 	}
 }

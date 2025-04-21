@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Blueprint/UserWidget.h"
+#include "Components/RichTextBlock.h"
 #include "DamageTextWidget.generated.h"
 
 /**
@@ -20,5 +21,5 @@ public:
 	void SetDamageText(float Damage, bool Berserk = false);
 	
 	UPROPERTY(meta=(BindWidget))
-	class UTextBlock* DamageText;
+	class URichTextBlock* DamageText;
 };
