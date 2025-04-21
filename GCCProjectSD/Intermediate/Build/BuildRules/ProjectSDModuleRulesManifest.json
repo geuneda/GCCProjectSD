@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\development_contents_in_c_drive\\UnrealProject\\GCCNew\\GCCProjectSD\\GCCProjectSD\\Source\\ProjectSD\\ProjectSD.Build.cs",
-		"C:\\development_contents_in_c_drive\\UnrealProject\\GCCNew\\GCCProjectSD\\GCCProjectSD\\Source\\ProjectSD.Target.cs",
-		"C:\\development_contents_in_c_drive\\UnrealProject\\GCCNew\\GCCProjectSD\\GCCProjectSD\\Source\\ProjectSDEditor.Target.cs"
+		"C:\\hngmo.kim\\project_LargeFile\\1st\\GCCProjectSD\\GCCProjectSD\\Source\\ProjectSD\\ProjectSD.Build.cs",
+		"C:\\hngmo.kim\\project_LargeFile\\1st\\GCCProjectSD\\GCCProjectSD\\Source\\ProjectSD.Target.cs",
+		"C:\\hngmo.kim\\project_LargeFile\\1st\\GCCProjectSD\\GCCProjectSD\\Source\\ProjectSDEditor.Target.cs"
 	],
 	"EngineVersion": "5.5.4"
 }
